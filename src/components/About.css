@@ -1,0 +1,107 @@
+.about {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.groupAbout {
+    width: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nameAbout {
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #445964;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.nameAbout strong {
+    color: #263138;
+}
+
+.textAbout {
+    color: #445964;
+    font-weight: 400;
+
+    width: 80%;
+    text-align: center;
+
+    margin-bottom: 60px;
+}
+
+.imgAbout {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1rem;
+    border: 5px solid #445964; /* Adiciona uma borda preta de 2 pixels */
+}
+
+.mySkills {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 90px;
+}
+
+.nameSkills {
+    font-size: 2.812rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #263138;
+    padding: 0;
+    margin: 0;
+
+    margin-bottom: 30px;
+}
+
+.nameSkills strong {
+    color: #445964;
+}
+
+.groupSkills {
+    display: flex;
+    flex-direction: column;
+    gap: 2.75rem;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    gap: 3.75rem;
+}
+
+.skill img {
+    width: 40px;
+    height: 40px;
+}
+
+.skill p {
+    text-align: center;
+    font-size: 2rem;
+
+    color: #445964;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
